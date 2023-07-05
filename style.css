@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500;600&family=Open+Sans:wght@500;600;700&family=Poppins:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500;600&family=Lato:ital,wght@0,400;0,700;0,900;1,700&family=Open+Sans:wght@500;600;700&family=Poppins:wght@600;700&display=swap');
+/* font-family: 'Hind', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; 
+font-family:Gilroy-Regular, sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo>a img{
+     height: 25px;
+     width: 88px;
+}
+.contain{
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-top: 100px;
+}
+.list-itm{
+    margin-left: 40px;
+}
+.list{
+    font-size: 13px;
+    font-family: Gilroy-Regular, sans-serif;
+}
+.list-itm::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    display: block;
+    margin: auto;
+    background-color: #19c6a6;
+    transition: 0.5s;
+}
+.list-itm:hover::after{
+    width: 100%;
+}
+.button{
+    padding: 5px 28px 9px 28px ;
+    margin-left: 120px;
+   background-color:#19c6a6;
+   border: 1px solid #19c6a6;
+   border-radius: 3px;
+}
+.button:hover{
+    background-color: rgb(209, 227, 226);
+    border:1.5px solid #19c6a6;
+}
+a.login-text:hover{
+    color: black;
+}
+/* a.login-text:hover{
+    color: #19c6a6;
+    font-size: 20px;
+} */
+.roww{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.coll{
+    margin-right: 40px;
+}
+.coll>img{
+    width: 385px;
+    height: 345px;
+}
+.coll>h1{
+    font-family: 'Poppins', sans-serif;
+}
+.coll>p{
+    font-size: 14px;
+    font-family: Gilroy-Regular, sans-serif;
+}
+.stng{
+    font-family: Gilroy, sans-serif;
+    font-size: 15px;
+    color: #19c6a6;
+}
+.search-box{
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 5px;
+    width: 500px;
+}
+input{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+}
+input[type="text"]{
+    background-color: #fff;
+    width: 265px;
+    height: 40px;
+    padding: 0px 20px 2px 20px;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 5px 0px 0px 5px;
+}
+input[type="text"]:hover , input[type="text"]:active{
+    background-color: #fff;
+    width: 265px;
+    height: 40px;
+    padding: 0px 20px 2px 20px;
+    border: 2px solid #19c6a6;
+    border-radius: 5px 0px 0px 5px;
+}
+input[type="submit"]{
+    position: relative;
+    width: 95px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #19c6a6;
+    color: white;
+    cursor: pointer;
+    left: -7px;
+    padding: 0px 5px  2px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+.button1{
+    border: 1px solid #19c6a6;
+    border-radius: 5px;
+    background-color: #19c6a6;
+    padding: 5px 20px 7px 20px;
+}
+/* brand section css start */
+.brand{
+    margin-bottom: 40px;
+}
+.brand>h1{
+    font-size: 31px;
+    font-family: 'Poppins', sans-serif;
+}
+.brand>p{
+    font-size: 14px;
+    font-family: Gilroy-Regular, sans-serif;
+}
+.list-bg{
+    background-color: white;
+    padding: 18px 0px 18px 15px;
+    border-radius: 8px;
+    width: 350px;
+
+}
+.L-one{
+    box-shadow: 9px 20px 25px #728b88;
+}
+.li-icon{
+    color: #19c6a6;
+    background-color: #eefcf9;
+    padding: 3px;
+}
+.list-bg>p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.d>img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    /* color: #19c6a6;
+    background-color: #19c6a6;
+    opacity: 8%; */
+}
+.d>h6{
+    font-size: 18px;
+    font-family: 'Poppins',sans-serif;
+}
+/* brand section css end */
+/* course section css start */
+.course-sec>h2{
+    font-size: 30px;
+    font-family:'Poppins', sans-serif;
+}
+.course-sec>p{ 
+    font-family:Gilroy-Regular, sans-serif;
+    font-size: 14px;
+    width: 320px;
+    position: absolute;
+    left: 473px;
+}
+.b-g{
+    background-color: rgb(99, 98, 98);
+    border: 5px solid rgb(91, 90, 90);
+    position: absolute;
+    top:305%;
+    width: 100%;
+}
+.rowww{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.course>img{
+    width: 160px;
+    height: 120px;
+}
+.course{
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 10px;
+    padding: 10px 5px 0px 10px;
+    margin-right: 19px;
+}
+.course>h6{
+    font-size: 12px;
+    font-family: 'Poppins',sans-serif;
+    margin-top: 18px;
+}
+.icon>p{
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    color: #19c6a6;
+}
+.p-icon>p{
+    font-size: 10px;
+    color: rgb(90, 90, 90);
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 3px;
+}
+/* course section css end */
+/* any section css start */
+.co>img{
+    width: 350px;
+    height: 270px;
+}
+.co>h1{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.co>p{
+    font-size: 14px;
+    font-family: Gilroy-Regular, sans-serif;
+}
+.contai{
+    margin-left: 17%;
+    margin-right: 13%;
+    margin-top: 80px;
+}
+.side>img{
+    width: 130px;
+    height: 200px;
+    margin-top: 65px;
+    margin-left: 20px;
+}
+/* any section css end */
+ /* bottom section css start */
+ .bottom{
+    background-color: rgb(29, 29, 39);
+ }
+ #roww{
+    display: grid;
+    grid-template-columns: auto auto ;
+ }
+ #coll>img{
+    width: 90px;
+    height: 25px;
+ }
+ #coll>p{
+     font-size: 13px;
+     color: rgb(231, 231, 231);
+     font-family:  Gilroy-Regular, sans-serif;
+     width: 290px;
+     margin-top: 10px;
+ }
+ .tabl>tr,td, th{
+    text-align: left;
+    padding: 10px 30px 10px 30px;
+    
+}
+.t>td{
+    font-size: 12px;
+    font-family:  Gilroy-Regular, sans-serif;
+    color: rgb(231, 231, 231);
+}
+.tabl>tr, td{
+    font-size: 10px;
+    font-family: Gilroy-Regular, sans-serif;
+    color: rgb(133, 133, 133);
+}
+.land{
+    color: rgb(150, 150, 150);
+}
+#t>p{
+    font-size: 12px;
+    font-family: Gilroy-Regular, sans-serif;
+}
+.t>p{
+    position: absolute;
+   left: 60%;
+}
+ /* bottom section css end  */

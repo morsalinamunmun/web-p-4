@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (max-width: 700px){
+       
+       .list  {
+        position: absolute;
+        width: 200px;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        background-color: #cee8e3;
+        text-align: left;
+        z-index: 0;
+       }
+       .b-g{
+          position: absolute;
+          top: 400%;
+          width: 100%;
+       }
+}
